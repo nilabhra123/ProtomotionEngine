@@ -15,3 +15,16 @@ C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debu
 C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineData.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineAPI.deps.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineAPI.runtimeconfig.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineAPI.runtimeconfig.dev.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineAPI.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineAPI.pdb
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.csproj.CoreCompileInputs.cache
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.pdb
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.genruntimeconfig.cache

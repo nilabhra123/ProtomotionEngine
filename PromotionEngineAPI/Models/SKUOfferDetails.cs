@@ -9,5 +9,6 @@ namespace PromotionEngineAPI.Models
     {
         public string SKUName { get; set; }
         public string OfferDescription { get; set; }
+        public decimal? PriceAfterDiscount { get; set; }
     }
 }

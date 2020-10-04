@@ -28,15 +28,17 @@ namespace PromotionEngineAPI.Service
                                         join combo in this._promotionRepo.GetComboOffers()
                                         on skuCombo.ComboOfferId equals combo.Id
                                         where combo.IsActive == true
-                                        group new { item, combo, skuCombo } by new { skuCombo.ComboOfferId } into skuComboGrp
-                                        select skuComboGrp).ToList();
+                                        select new { item, combo });
 
-                comboOfferGroups.ForEach(group =>
+                comboOfferGroups.GroupBy(a=>a.combo.Id).ToList().ForEach(group =>
                 {
+                    var finalPrice = ((group.FirstOrDefault()?.combo.OfferType == OfferType.AMOUNT_DISCOUNT) ? group.Sum(a => a.item.price) - group.FirstOrDefault()?.combo.DiscountValue : group.Sum(a => a.item.price) - (group.Sum(a => a.item.price) * (group.FirstOrDefault()?.combo.DiscountValue / 100)));
                     currentComboOffers.Add(new SKUOfferDetails
                     {
+
                         SKUName = string.Join(" & ", group.Select(a => a.item.Name)),
-                        OfferDescription = $"priced at {((group.FirstOrDefault()?.combo.OfferType == OfferType.AMOUNT_DISCOUNT) ? group.Sum(a => a.item.price) - group.FirstOrDefault()?.combo.DiscountValue : group.Sum(a => a.item.price) - (group.Sum(a => a.item.price) * (group.FirstOrDefault()?.combo.DiscountValue / 100)))}"
+                        PriceAfterDiscount = finalPrice,
+                        OfferDescription = $"purchase at {finalPrice}"
                     });
                 });
 
@@ -46,11 +48,13 @@ namespace PromotionEngineAPI.Service
                                                where offerRel.IsActive == true
                                                join offer in this._promotionRepo.GetAllIndividualSKUOfferData()
                                                on offerRel.OfferId equals offer.Id
+                                               let finalPrice = (offer.OfferType == OfferType.AMOUNT_DISCOUNT ? item.price * offer.PurchaseQuantity - offer.DiscountValue : item.price * offer.PurchaseQuantity - ((item.price * offer.PurchaseQuantity * offer.DiscountValue) / 100))
                                                select new SKUOfferDetails()
                                                {
                                                    SKUName = item.Name,
+                                                   PriceAfterDiscount = finalPrice,
                                                    OfferDescription = $"Purchase {offer.PurchaseQuantity} {item.Name} at " +
-                                                   $"{(offer.OfferType == OfferType.AMOUNT_DISCOUNT ? item.price * offer.PurchaseQuantity - offer.DiscountAmount : item.price * offer.PurchaseQuantity - ((item.price * offer.PurchaseQuantity * offer.DiscountAmount) / 100))}"
+                                                   $"{finalPrice}"
                                                }).ToList();
 
                 allOffers.AddRange(currentIndividualOffers);
