@@ -1,0 +1,17 @@
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\PromotionEngineAPI.exe
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.csprojAssemblyReference.cache
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.AssemblyInfoInputs.cache
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.AssemblyInfo.cs
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.RazorTargetAssemblyInfo.cache
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\staticwebassets\PromotionEngineAPI.StaticWebAssets.Manifest.cache
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\staticwebassets\PromotionEngineAPI.StaticWebAssets.xml
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\obj\Debug\netcoreapp3.1\PromotionEngineAPI.csproj.CopyComplete
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NILABHRA\source\repos\PromotionEngineSystem\PromotionEngineAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll

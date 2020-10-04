@@ -1,0 +1,99 @@
+{
+  "PromotionMaster": {
+    "SKUProducts": [
+      {
+        "Id": 1,
+        "Name": "A",
+        "Price": 50.00
+
+      },
+      {
+        "Id": 2,
+        "Name": "B",
+        "Price": 30.00
+
+      },
+      {
+        "Id": 3,
+        "Name": "C",
+        "Price": 20.00
+
+      },
+      {
+        "Id": 1,
+        "Name": "D",
+        "Price": 15.00
+
+      }
+    ],
+
+    "SinglePurchaseOffers": [
+      {
+        "Id": 1,
+        "Type": "AmountDiscount",
+        "PurchaseQuantity": 3,
+        "DiscountValue": 20
+      },
+
+      {
+        "Id": 2,
+        "Type": "AmountDiscount",
+        "PurchaseQuantity": 2,
+        "DiscountValue": 15
+      },
+
+      {
+        "Id": 3,
+        "Type": "Percentage",
+        "PurchaseQuantity": 3,
+        "DiscountValue": 20
+      }
+    ],
+
+    "ComboOffers": [
+      {
+        "Id": 4,
+        "Name": "Combo",
+        "Type": "AmountDiscount",
+        "DiscountValue": 5,
+        "IsActive": "true"
+      },
+      {
+        "Id": 4,
+        "Name": "Combo",
+        "Type": "Percent",
+        "DiscountValue": 10,
+        "IsActive": "true"
+      }
+    ]
+  },
+
+  "Relation": {
+
+    "SKUSingleOfferRelations": [
+      {
+        "SKUId": 1,
+        "OfferId": 1,
+        "IsActive": "true"
+      },
+
+      {
+        "SKUId": 2,
+        "OfferId": 2,
+        "IsActive": "true"
+      }
+    ],
+
+    "SKUComboOfferRelations": [
+      {
+        "ComboOfferId": 1,
+        "SKUId": 3
+      },
+
+      {
+        "ComboOfferId": 1,
+        "SKUId": 4
+      }
+    ]
+  }
+}
