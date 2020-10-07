@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace PromotionEngineAPI.Models
 {
-    public class SKU
+    public class FinalCart
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+        public List<SKUCartDetail> SKUCartDetails { get; set; }
+        public decimal TotalAmount { get; set; }
     }
 }
